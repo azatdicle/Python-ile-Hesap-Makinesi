@@ -11,21 +11,28 @@ print("| |  | | (_| |   <| | | | |  __/\__ \ |")
 print("|_|  |_|\__,_|_|\_\_|_| |_|\___||___/_|")
 print("=========================================")
 print("Author:azatmg")
-print("MERHABA İŞLEMİNİZİ YAZIN =>(topla,çıkar,çarp,böl)")
-
-
+print("""
+______________________
+|    =İSLEMLER=      |
+|                    |
+|    + = Toplama     |
+|    - = Çıkarma     |
+|    * = Çarpma      |
+|    / = Bölme       |
+|____________________|
+""")
 islem=input("islem gir:")
 sayi1=int(input("sayi1:"))
 sayi2=int(input("sayi2:"))
-if islem=="topla":
+if islem=="+":
    sonuc=int(sayi1)+int(sayi2)
    print("sonuc:",str(sonuc))
-elif islem=="çıkar":
+elif islem=="-":
    sonuc=int(sayi1)-int(sayi2)
    print("sonuc:",str(sonuc))
-elif islem=="çarp":
+elif islem=="*":
    sonuc=int(sayi1)*int(sayi2)
    print("sonuc:",str(sonuc))
-elif islem=="böl":
+elif islem=="/":
    sonuc=int(sayi1)/int(sayi2)
    print("sonuc:",str(sonuc))
